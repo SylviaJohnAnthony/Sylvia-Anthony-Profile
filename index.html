@@ -3,99 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px 10px;
-            text-align: center;
-        }
-        nav {
-            margin: 20px auto;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #4CAF50;
-            font-weight: bold;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-        .project {
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-            padding: 15px;
-        }
-        .project h3 {
-            color: #4CAF50;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #333;
-            color: white;
-        }
-    </style>
+    <title>Sylvia John Anthony - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Sylvia John Anthony's Data Science Portfolio</h1>
+        <nav>
+            <a href="#projects">Explore Projects</a>
+            <a href="#builder">Portfolio Builder</a>
+            <a href="#logout">Logout</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- About Section -->
+    <section id="about">
+        <h1>Sylvia John Anthony</h1>
+        <h2>Business Analyst</h2>
+        <p>Based in San Jose</p>
+        <a href="https://linkedin.com/in/sylviajohnanthony" target="_blank">LinkedIn</a>
+        <p>Analytics professional with 4+ years’ experience across retail and operations...</p>
+    </section>
 
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm Sylvia John Anthony, a data scientist passionate about solving real-world problems using data. I specialize in machine learning, data visualization, and statistical analysis.</p>
-        </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Data Analytics & Visualization, SQL, Python, NumPy, Pandas...</p>
+    </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
 
-            <!-- Example Project -->
-            <div class="project">
-                <h3>Project Title 1</h3>
-                <p>Description of the project. Include details about the tools and techniques used (e.g., Python, Pandas, Scikit-learn).</p>
-                <a href="#">View Project</a>
-            </div>
+        <!-- Project 1 -->
+        <div class="project">
+            <h3>FoodHub Order Analysis using Python</h3>
+            <p>EDA, Univariate analysis, Bi-Variate analysis (Python)</p>
+            <p>The food aggregator company has stored data of different orders...</p>
+            <a href="#">Read more</a>
+        </div>
 
-            <!-- Add more projects as needed -->
-            
-            <div class="project">
-                <h3>Project Title 2</h3>
-                <p>Description of another project with relevant details.</p>
-                <a href="#">View Project</a>
-            </div>
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>Business Statistics - Hypothesis Testing</h3>
+            <p>Hypothesis Testing, A/B Testing, Data Visualization...</p>
+            <p>This project used statistical analysis to decide whether...</p>
+            <a href="#">Read more</a>
+        </div>
+    </section>
 
-        </section>
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email me at sylvia.john.anthony@example.com or connect on LinkedIn.</p>
-        </section>
-    </div>
+        <!-- Job 1 -->
+        <div class="job">
+            <h3>Business Analyst | Amazon (2022-2023)</h3>
+            <ul>
+                <li>Owned multiple WBRs for different stakeholder levels...</li>
+                <li>Developed 5+ Quicksight dashboards for product feature development.</li>
+                <!-- Add more points here -->
+            </ul>
+        </div>
 
+        <!-- Job 2 -->
+        <!-- Add more jobs similarly -->
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>PGDM:</strong> Institute of Management Technology, Hyderabad (2018-2020)</li>
+            <li><strong>Bachelor of Engineering:</strong> University of Mumbai (2012-2016)</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        &copy; 2025 Sylvia John Anthony. All rights reserved.
+        <a href="#">Edit Content</a> | 
+        <a href="#">Design Analytics</a> | 
+        Current Date: Tuesday, January 28, 2025
     </footer>
 </body>
 </html>
